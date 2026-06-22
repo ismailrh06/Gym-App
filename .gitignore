@@ -1,4 +1,9 @@
-node_modules
-.expo
-.vercel
-web-build
+node_modules/
+.expo/
+.vercel/
+web-build/
+dist/
+.env
+.env.local
+.DS_Store
+npm-debug.log*

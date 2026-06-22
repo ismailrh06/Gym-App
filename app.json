@@ -1,9 +1,0 @@
-{
-  "expo": {
-    "name": "Gym App",
-    "slug": "gym-app",
-    "platforms": ["ios", "android", "web"],
-    "version": "1.0.0",
-    "sdkVersion": "49.0.0"
-  }
-}

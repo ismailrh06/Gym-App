@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+  background: #09090b;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+::selection {
+  background: rgba(79, 140, 255, 0.35);
+  color: #ffffff;
+}
+
+.noise-overlay {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.16;
+  mix-blend-mode: soft-light;
+  background-image:
+    linear-gradient(rgba(255,255,255,0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,0.04) 1px, transparent 1px);
+  background-size: 64px 64px;
+  mask-image: linear-gradient(to bottom, black, transparent 88%);
+}
+
+.phone-glass {
+  background:
+    linear-gradient(145deg, rgba(255,255,255,0.16), rgba(255,255,255,0.03)),
+    #101014;
+  box-shadow:
+    inset 0 0 0 1px rgba(255,255,255,0.08),
+    0 32px 80px rgba(0,0,0,0.48);
+}
+
+.app-screen {
+  background:
+    radial-gradient(circle at top left, rgba(79,140,255,0.25), transparent 32%),
+    linear-gradient(180deg, #18181b 0%, #0f0f12 100%);
+}
+
+.gradient-ring {
+  background:
+    conic-gradient(from 130deg, #4f8cff, #ffffff, #4f8cff, #232326, #4f8cff);
+}
