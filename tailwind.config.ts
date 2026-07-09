@@ -10,14 +10,15 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "#09090B",
-        card: "#111113",
-        border: "#232326",
-        muted: "#A1A1AA",
-        accent: "#4f8cff"
+        background: "#050507",
+        card: "#0B0C10",
+        border: "#1F2024",
+        muted: "#9CA3AF",
+        accent: "#D4AF37"
       },
       fontFamily: {
-        sans: ["var(--font-inter)", "Inter", "sans-serif"]
+        sans: ["var(--font-sans)", "Manrope", "sans-serif"],
+        heading: ["var(--font-heading)", "Playfair Display", "serif"]
       },
       boxShadow: {
         glow: "0 0 52px rgba(79, 140, 255, 0.28)",

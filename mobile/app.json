@@ -1,0 +1,17 @@
+{
+  "expo": {
+    "name": "AthletIQ Mobile",
+    "slug": "athletiq-mobile",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "sdkVersion": "48.0.0",
+    "orientation": "portrait",
+    "ios": {
+      "bundleIdentifier": "com.ismaelrh06.athletiq-mobile"
+    }
+  }
+}

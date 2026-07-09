@@ -2,20 +2,18 @@ import type { Metadata } from "next";
 import "@/styles/globals.css";
 
 export const metadata: Metadata = {
-  title: "AthletIQ | AI Fitness Coaching",
-  description:
-    "Workout plans, nutrition, progress tracking and AI coaching in one premium fitness app.",
+  title: "AthletIQ — Coaching fitness premium",
+  description: "Programmes, nutrition et coaching IA pour atteindre vos objectifs avec méthode.",
   keywords: [
-    "fitness app",
-    "AI coach",
-    "workout planner",
-    "nutrition tracking",
-    "progress tracking"
+    "coaching fitness",
+    "coach IA",
+    "programme entraînement",
+    "suivi nutrition",
+    "suivi progression"
   ],
   openGraph: {
-    title: "AthletIQ | Everything you need to transform your body",
-    description:
-      "Personalized training, nutrition and progress insights for ambitious fitness goals.",
+    title: "AthletIQ — Coaching fitness premium",
+    description: "Programmes personnalisés, nutrition et suivi pour des résultats durables.",
     type: "website"
   },
   robots: {
@@ -30,7 +28,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="dark">
+    <html lang="fr" className="dark">
       <body className="bg-background font-sans text-white antialiased">{children}</body>
     </html>
   );

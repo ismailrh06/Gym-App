@@ -13,10 +13,10 @@ import {
   Target,
   UserRound
 } from "lucide-react";
-import { AnimatedCounter } from "@/components/animated-counter";
-import { AppButton } from "@/components/app-button";
-import { FeatureCard } from "@/components/feature-card";
-import { PhoneMockup } from "@/components/phone-mockup";
+import { AnimatedCounter } from "@/components/ui/animated-counter";
+import { AppButton } from "@/components/ui/app-button";
+import { FeatureCard } from "@/components/cards/feature-card";
+import { PhoneMockup } from "@/components/ui/phone-mockup";
 
 const features = [
   {
@@ -147,8 +147,8 @@ function FeaturesSection() {
       <div className="mx-auto max-w-7xl">
         <SectionHeader
           eyebrow="Système d'entraînement"
-            title="Quatre piliers, un seul plan."
-            description="Chaque entraînement, repas et temps de récupération sont connectés pour des progrès cohérents."
+          title="Quatre piliers, un seul plan."
+          description="Chaque entraînement, repas et temps de récupération sont connectés pour des progrès cohérents."
         />
         <div className="mt-12 grid gap-5 md:grid-cols-2">
           {features.map((feature) => (
@@ -206,8 +206,8 @@ function ScreenshotsSection() {
       <div className="mx-auto max-w-7xl">
         <SectionHeader
           eyebrow="Captures d'écran"
-            title="Chaque écran conçu pour la progression."
-            description="Une expérience mobile pensée pour l'entraînement, la nutrition et le suivi quotidien."
+          title="Chaque écran conçu pour la progression."
+          description="Une expérience mobile pensée pour l'entraînement, la nutrition et le suivi quotidien."
         />
       </div>
       <div className="mx-auto mt-14 flex max-w-7xl gap-5 overflow-x-auto pb-8 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
