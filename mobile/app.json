@@ -2,16 +2,25 @@
   "expo": {
     "name": "AthletIQ Mobile",
     "slug": "athletiq-mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#050507",
     "platforms": [
       "ios",
       "android",
       "web"
     ],
-    "version": "1.0.0",
-    "sdkVersion": "48.0.0",
-    "orientation": "portrait",
+    "splash": {
+      "backgroundColor": "#050507",
+      "resizeMode": "contain"
+    },
     "ios": {
-      "bundleIdentifier": "com.ismaelrh06.athletiq-mobile"
+      "bundleIdentifier": "com.ismaelrh06.athletiq-mobile",
+      "supportsTablet": false
+    },
+    "android": {
+      "package": "com.ismaelrh06.athletiqmobile"
     }
   }
 }
